@@ -42,6 +42,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${plugin.surefire.version}</version>
                 <configuration>
+                    <argLine>--enable-preview</argLine>
                     <systemPropertyVariables>
                         <maven.home>${maven.home}</maven.home>
                     </systemPropertyVariables>
