@@ -12,7 +12,7 @@
     <properties>
         <maven.compiler.release>25</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <plugin.compiler.version>3.14.1</plugin.compiler.version>
+        <plugin.compiler.version>3.15.0</plugin.compiler.version>
         <plugin.surefire.version>3.5.4</plugin.surefire.version>
     </properties>
 
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>6.0.0</version>
+            <version>6.0.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
